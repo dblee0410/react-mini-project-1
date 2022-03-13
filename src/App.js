@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import My from "./components/My/My";
 import './App.css';
+import Test from './components/Test'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     
-    </div>
+      <My/>
+    <Test />
   );
 }
 
